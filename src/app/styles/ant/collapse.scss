@@ -1,0 +1,49 @@
+div.ant-collapse {
+    .ant-collapse-item {
+        padding: 8px 24px;
+        .ant-collapse-header {
+            padding: 0px;
+            background-color: transparent;
+            margin-bottom: 20px;
+            .ant-collapse-header-text {
+                color: #0d3659;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 600;
+            }
+            .ant-collapse-expand-icon {
+                height: 20px;
+            }
+        }
+        .ant-collapse-content {
+            .ant-checkbox-group {
+                width: 100%;
+                flex-direction: column;
+                gap: 8px;
+                .ant-checkbox-wrapper {
+                    justify-content: space-between;
+                    flex-direction: row-reverse;
+                    span:last-child {
+                        width: 100%;
+                        padding-right: 14px;
+                        color: #0d3659;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 600;
+                    }
+
+                    .ant-checkbox-checked {
+                        .ant-checkbox-inner {
+                            background-color: #0d3659;
+                            border-color: #0d3659;
+                        }
+                    }
+                }
+            }
+
+            .ant-collapse-content-box {
+                padding: 0px;
+            }
+        }
+    }
+}
